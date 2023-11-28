@@ -1,0 +1,27 @@
+{
+  "id": "rpc-netty-framework-2.0/introduce copy",
+  "title": "介绍!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/rpc-netty-framework-2.0/introduce copy.md",
+  "sourceDirName": "rpc-netty-framework-2.0",
+  "slug": "/rpc-netty-framework-2.0/introduce copy",
+  "permalink": "/docs/next/rpc-netty-framework-2.0/introduce copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/rpc-netty-framework-2.0/introduce copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RNF 是什么？",
+    "permalink": "/docs/next/rpc-netty-framework-2.0/congratulations"
+  },
+  "next": {
+    "title": "介绍!",
+    "permalink": "/docs/next/rpc-netty-framework-2.0/introduce"
+  }
+}

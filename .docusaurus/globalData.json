@@ -26,58 +26,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rpc-netty-framework-2.0/create-a-blog-post",
-              "path": "/docs/next/rpc-netty-framework-2.0/create-a-blog-post",
+              "id": "rpc-netty-framework-2.0/introduce",
+              "path": "/docs/next/rpc-netty-framework-2.0/introduce",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rpc-netty-framework-2.0/create-a-document",
-              "path": "/docs/next/rpc-netty-framework-2.0/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-2.0/create-a-page",
-              "path": "/docs/next/rpc-netty-framework-2.0/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-2.0/deploy-your-site",
-              "path": "/docs/next/rpc-netty-framework-2.0/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-2.0/markdown-features",
-              "path": "/docs/next/rpc-netty-framework-2.0/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-3.0/congratulations",
-              "path": "/docs/next/rpc-netty-framework-3.0/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-3.0/create-a-blog-post",
-              "path": "/docs/next/rpc-netty-framework-3.0/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-3.0/create-a-document",
-              "path": "/docs/next/rpc-netty-framework-3.0/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-3.0/create-a-page",
-              "path": "/docs/next/rpc-netty-framework-3.0/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-3.0/deploy-your-site",
-              "path": "/docs/next/rpc-netty-framework-3.0/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rpc-netty-framework-3.0/markdown-features",
-              "path": "/docs/next/rpc-netty-framework-3.0/markdown-features",
+              "id": "rpc-netty-framework-2.0/quick-start",
+              "path": "/docs/next/rpc-netty-framework-2.0/quick-start",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -123,11 +78,6 @@
             {
               "id": "/category/rpc-netty-framework-20",
               "path": "/docs/next/category/rpc-netty-framework-20",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/rpc-netty-framework-30",
-              "path": "/docs/next/category/rpc-netty-framework-30",
               "sidebar": "tutorialSidebar"
             },
             {

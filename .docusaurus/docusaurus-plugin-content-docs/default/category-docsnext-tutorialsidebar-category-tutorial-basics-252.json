@@ -5,8 +5,8 @@
   "permalink": "/docs/next/category/tutorial---basics",
   "navigation": {
     "previous": {
-      "title": "Congratulations!",
-      "permalink": "/docs/next/rpc-netty-framework-3.0/congratulations"
+      "title": "快速开始",
+      "permalink": "/docs/next/rpc-netty-framework-2.0/quick-start"
     },
     "next": {
       "title": "Create a Page",

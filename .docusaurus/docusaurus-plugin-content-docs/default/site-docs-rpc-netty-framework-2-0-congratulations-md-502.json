@@ -1,7 +1,7 @@
 {
   "id": "rpc-netty-framework-2.0/congratulations",
-  "title": "Congratulations!",
-  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "title": "RNF 是什么？",
+  "description": "RNF 简介",
   "source": "@site/docs/rpc-netty-framework-2.0/congratulations.md",
   "sourceDirName": "rpc-netty-framework-2.0",
   "slug": "/rpc-netty-framework-2.0/congratulations",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Deploy your site",
-    "permalink": "/docs/next/rpc-netty-framework-2.0/deploy-your-site"
+    "title": "RPC Netty Framework 2.0",
+    "permalink": "/docs/next/category/rpc-netty-framework-20"
   },
   "next": {
-    "title": "RPC Netty Framework 3.0",
-    "permalink": "/docs/next/category/rpc-netty-framework-30"
+    "title": "介绍!",
+    "permalink": "/docs/next/rpc-netty-framework-2.0/introduce"
   }
 }
