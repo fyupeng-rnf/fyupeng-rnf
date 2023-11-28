@@ -1,0 +1,16 @@
+{
+  "title": "RPC Netty Framework 3.0",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/rpc-netty-framework-30",
+  "permalink": "/docs/category/rpc-netty-framework-30",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/docs/rpc-netty-framework-2.0/congratulations"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/rpc-netty-framework-3.0/create-a-page"
+    }
+  }
+}
