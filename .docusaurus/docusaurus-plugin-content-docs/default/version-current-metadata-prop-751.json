@@ -18,36 +18,6 @@
       },
       {
         "type": "category",
-        "label": "RPC Netty Framework 2.0",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "RNF 是什么？",
-            "href": "/docs/next/rpc-netty-framework-2.0/congratulations",
-            "docId": "rpc-netty-framework-2.0/congratulations",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "介绍!",
-            "href": "/docs/next/rpc-netty-framework-2.0/introduce",
-            "docId": "rpc-netty-framework-2.0/introduce",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "快速开始",
-            "href": "/docs/next/rpc-netty-framework-2.0/quick-start",
-            "docId": "rpc-netty-framework-2.0/quick-start",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/next/category/rpc-netty-framework-20"
-      },
-      {
-        "type": "category",
         "label": "Tutorial - Basics",
         "collapsible": true,
         "collapsed": true,
@@ -140,24 +110,6 @@
       "id": "rnf-intro",
       "title": "RNF Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
-    },
-    "rpc-netty-framework-2.0/congratulations": {
-      "id": "rpc-netty-framework-2.0/congratulations",
-      "title": "RNF 是什么？",
-      "description": "RNF 简介",
-      "sidebar": "tutorialSidebar"
-    },
-    "rpc-netty-framework-2.0/introduce": {
-      "id": "rpc-netty-framework-2.0/introduce",
-      "title": "介绍!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "rpc-netty-framework-2.0/quick-start": {
-      "id": "rpc-netty-framework-2.0/quick-start",
-      "title": "快速开始",
-      "description": "Java",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

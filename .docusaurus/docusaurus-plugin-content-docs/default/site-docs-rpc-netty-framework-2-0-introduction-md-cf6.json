@@ -1,0 +1,27 @@
+{
+  "id": "rpc-netty-framework-2.0/introduction",
+  "title": "RNF 是什么？",
+  "description": "RNF 简介",
+  "source": "@site/docs/rpc-netty-framework-2.0/introduction.md",
+  "sourceDirName": "rpc-netty-framework-2.0",
+  "slug": "/rpc-netty-framework-2.0/introduction",
+  "permalink": "/docs/next/rpc-netty-framework-2.0/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/rpc-netty-framework-2.0/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RPC Netty Framework 2.0",
+    "permalink": "/docs/next/category/rpc-netty-framework-20"
+  },
+  "next": {
+    "title": "快速开始",
+    "permalink": "/docs/next/rpc-netty-framework-2.0/quick-start"
+  }
+}

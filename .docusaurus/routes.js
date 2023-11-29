@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '73d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '34e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '3f3'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'b9e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '989'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '5de'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'da0'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'aa4'),
     exact: true
@@ -109,22 +74,16 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '873'),
+    component: ComponentCreator('/docs', 'cab'),
     routes: [
       {
         path: '/docs/next',
-        component: ComponentCreator('/docs/next', 'cfa'),
+        component: ComponentCreator('/docs/next', 'e28'),
         routes: [
           {
             path: '/docs/next',
-            component: ComponentCreator('/docs/next', '9bb'),
+            component: ComponentCreator('/docs/next', '267'),
             routes: [
-              {
-                path: '/docs/next/category/rpc-netty-framework-20',
-                component: ComponentCreator('/docs/next/category/rpc-netty-framework-20', '68a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
               {
                 path: '/docs/next/category/tutorial---basics',
                 component: ComponentCreator('/docs/next/category/tutorial---basics', 'aad'),
@@ -146,24 +105,6 @@ export default [
               {
                 path: '/docs/next/rnf-intro',
                 component: ComponentCreator('/docs/next/rnf-intro', '67d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/next/rpc-netty-framework-2.0/congratulations',
-                component: ComponentCreator('/docs/next/rpc-netty-framework-2.0/congratulations', 'ebe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/next/rpc-netty-framework-2.0/introduce',
-                component: ComponentCreator('/docs/next/rpc-netty-framework-2.0/introduce', '702'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/next/rpc-netty-framework-2.0/quick-start',
-                component: ComponentCreator('/docs/next/rpc-netty-framework-2.0/quick-start', '749'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -221,39 +162,15 @@ export default [
       },
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '49d'),
+        component: ComponentCreator('/docs', '561'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3c5'),
+            component: ComponentCreator('/docs', 'c4a'),
             routes: [
               {
                 path: '/docs/category/rpc-netty-framework-20',
                 component: ComponentCreator('/docs/category/rpc-netty-framework-20', '032'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/rpc-netty-framework-30',
-                component: ComponentCreator('/docs/category/rpc-netty-framework-30', 'e3b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '4a2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -264,122 +181,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rpc-netty-framework-2.0/congratulations',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/congratulations', '1d1'),
+                path: '/docs/rpc-netty-framework-2.0/introduction',
+                component: ComponentCreator('/docs/rpc-netty-framework-2.0/introduction', '52f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rpc-netty-framework-2.0/create-a-blog-post',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/create-a-blog-post', '24d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-2.0/create-a-document',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/create-a-document', 'cb3'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-2.0/create-a-page',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/create-a-page', '1cd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-2.0/deploy-your-site',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/deploy-your-site', 'e05'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-2.0/markdown-features',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/markdown-features', '1ef'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-3.0/congratulations',
-                component: ComponentCreator('/docs/rpc-netty-framework-3.0/congratulations', 'c22'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-3.0/create-a-blog-post',
-                component: ComponentCreator('/docs/rpc-netty-framework-3.0/create-a-blog-post', 'd6d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-3.0/create-a-document',
-                component: ComponentCreator('/docs/rpc-netty-framework-3.0/create-a-document', '05f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-3.0/create-a-page',
-                component: ComponentCreator('/docs/rpc-netty-framework-3.0/create-a-page', '6f7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-3.0/deploy-your-site',
-                component: ComponentCreator('/docs/rpc-netty-framework-3.0/deploy-your-site', '5dc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/rpc-netty-framework-3.0/markdown-features',
-                component: ComponentCreator('/docs/rpc-netty-framework-3.0/markdown-features', '65b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', 'cbd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', 'f0b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'a0d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'baa'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'a78'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', '82e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '9bc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '720'),
+                path: '/docs/rpc-netty-framework-2.0/quick-start',
+                component: ComponentCreator('/docs/rpc-netty-framework-2.0/quick-start', 'dac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

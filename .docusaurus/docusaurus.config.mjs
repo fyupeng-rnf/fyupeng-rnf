@@ -65,6 +65,12 @@ export default {
       },
       "items": [
         {
+          "type": "docsVersionDropdown",
+          "position": "left",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
