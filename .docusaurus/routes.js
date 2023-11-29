@@ -74,7 +74,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'cab'),
+    component: ComponentCreator('/docs', '493'),
     routes: [
       {
         path: '/docs/next',
@@ -162,11 +162,11 @@ export default [
       },
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '561'),
+        component: ComponentCreator('/docs', 'a40'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c4a'),
+            component: ComponentCreator('/docs', '023'),
             routes: [
               {
                 path: '/docs/category/rpc-netty-framework-20',
@@ -182,7 +182,7 @@ export default [
               },
               {
                 path: '/docs/rpc-netty-framework-2.0/introduction',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/introduction', '52f'),
+                component: ComponentCreator('/docs/rpc-netty-framework-2.0/introduction', 'fd4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

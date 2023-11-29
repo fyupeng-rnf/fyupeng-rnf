@@ -1,0 +1,82 @@
+---
+sidebar_position: 1
+---
+
+# RNF 是什么？
+
+## RNF 简介
+
+### 概览
+
+RNF（全称：RPC-Netty-Framework）是一款动态远程方法调用的 `RPC` 框架。
+
+### 解决方案
+
+export const DescriptioExample = ({children, href}) => (
+    <span
+        style={{
+        borderRadius: '20px',
+        color: '#0070c0',
+        padding: '10px',
+        cursor: 'pointer',
+        }}
+        onClick={() => {
+            window.location.href = `${href}`;
+        }}>
+        {children}
+    </span>
+);
+
+
+- [x] <DescriptioExample href="#">动态代理远程方法调用的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#4-IO-异步非阻塞">IO异步非阻塞的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#1-信息摘要算法的应用">信息摘要算法应用的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#2-心跳机制">TCP长连接、低延迟的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#3-SPI机制">开放组件扩展的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#5-RNF-协议">自定义安全协议的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#7-高可用集群">HA高可用性的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#10-高并发">HC高并发的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#11-健壮性">健壮性的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#8-超时重试机制">分布式超时重试机制的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#6-场景应用">微服务场景应用的解决方案；</DescriptioExample>
+- [x] <DescriptioExample href="https://github.com/fyupeng/rpc-netty-framework/tree/main/document/zh/亮点.md#9-雪花算法">分布式缓存与容错故障的解决方案；</DescriptioExample>
+
+
+<br/>
+
+
+
+### 主流RPC框架性能对比
+
+![性能对比](<image/Comparison of functionality.png>)
+
+### 开放源码及组件
+
+
+<pre>
+[rpc-core-2.2.5-jar-with-dependencies.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)           2023-05-02 17:55           21372845       
+[rpc-core-2.2.5-javadoc.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                         2023-05-02 17:55             268025        
+[rpc-core-2.2.5-sources.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                         2023-05-02 17:55              48940      
+[rpc-core-2.2.5.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                                 2023-05-02 17:55              67478      
+[rpc-core-2.2.5.pom](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                                 2023-05-02 17:55               4155      
+</pre> 
+
+
+```xml title='maven 依赖导入'
+<dependency>
+    <groupId>cn.fyupeng</groupId>
+    <artifactId>rpc-core</artifactId>
+    <version>2.2.5</version>
+</dependency>
+```
+
+
+![源码及组件](<image/framework components.png>)
+
+
+## 概念
+
+## 架构
+
+
+
