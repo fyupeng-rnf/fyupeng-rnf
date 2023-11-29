@@ -1,7 +1,7 @@
 {
   "id": "rpc-netty-framework-2.0/quick-start",
   "title": "快速开始",
-  "description": "Java",
+  "description": "本章节帮助文档致力使用 Java/GoLang 快速构建一个远程服务调用的过程。",
   "source": "@site/versioned_docs/version-2.0/rpc-netty-framework-2.0/quick-start.md",
   "sourceDirName": "rpc-netty-framework-2.0",
   "slug": "/rpc-netty-framework-2.0/quick-start",

@@ -157,7 +157,7 @@
     "tutorial-extras/translate-your-site": {
       "id": "tutorial-extras/translate-your-site",
       "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+      "description": "Let's translate docs/next/intro.md to French.",
       "sidebar": "tutorialSidebar"
     }
   }
