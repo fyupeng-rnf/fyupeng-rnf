@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '73d'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '34e'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '3f3'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'b9e'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '989'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '5de'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', 'da0'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'aa4'),
     exact: true
@@ -74,7 +109,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '493'),
+    component: ComponentCreator('/docs', '7f9'),
     routes: [
       {
         path: '/docs/next',
@@ -162,11 +197,11 @@ export default [
       },
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a40'),
+        component: ComponentCreator('/docs', '48f'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '023'),
+            component: ComponentCreator('/docs', '193'),
             routes: [
               {
                 path: '/docs/category/rpc-netty-framework-20',
@@ -188,7 +223,7 @@ export default [
               },
               {
                 path: '/docs/rpc-netty-framework-2.0/quick-start',
-                component: ComponentCreator('/docs/rpc-netty-framework-2.0/quick-start', 'dac'),
+                component: ComponentCreator('/docs/rpc-netty-framework-2.0/quick-start', 'e14'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

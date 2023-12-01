@@ -18,15 +18,33 @@ sidebar_position: 2
 
 ## 版本说明
 
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">模块</th>
+      <th scope="col">名称</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">[rpc-core-2.2.5-jar-with-dependencies.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)</th>
+      <td>公共依赖编译包</td>
+    </tr>
+    <tr>
+      <th scope="row">[rpc-core-2.2.5-javadoc.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)</th>
+      <td>文档包</td>
+    </tr>
+    <tr>
+      <th scope="row">[rpc-core-2.2.5-sources.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)</th>
+      <td colspan="2">源码包</td>
+    </tr>
+    <tr>
+      <th scope="row">[rpc-core-2.2.5.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)</th>
+      <td colspan="2">核心依赖编译包</td>
+    </tr>
+  </tbody>
+</table>
 
-
-<pre>
-模块                                                创建时间                        名称
-[rpc-core-2.2.5-jar-with-dependencies.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)           2023-05-02 17:55       公共依赖编译库       
-[rpc-core-2.2.5-javadoc.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                         2023-05-02 17:55            帮助文档        
-[rpc-core-2.2.5-sources.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                         2023-05-02 17:55                源码      
-[rpc-core-2.2.5.jar](https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/)                                 2023-05-02 17:55           核心编译库             
-</pre> 
 选择 [其他版本](https://central.sonatype.com/artifact/cn.fyupeng/rpc-netty-framework/versions)
 
 
@@ -39,17 +57,3 @@ sidebar_position: 2
     <version>2.2.5</version>
 </dependency>
 ```
-
-## Java
-
-### Java 服务端
-
-### Java 客户端
-
-## GoLang
-
-### GoLang 服务端
-
-### GoLang 客户端
-
-## Other Language
