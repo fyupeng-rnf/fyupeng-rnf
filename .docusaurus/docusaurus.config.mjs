@@ -5,8 +5,8 @@
  */
 export default {
   "title": "RNF",
-  "tagline": "Dinosaurs are cool",
-  "favicon": "img/favicon.ico",
+  "tagline": "Easy to coding!",
+  "favicon": "img/favicon-black.ico",
   "url": "https://fyupeng-rnf.github.io",
   "baseUrl": "/",
   "organizationName": "fyupeng-rnf",
@@ -43,7 +43,7 @@ export default {
   ],
   "themes": [
     [
-      "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+      "D:\\Users\\fyp01\\NodeProject\\rnf\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
       {
         "hashed": true,
         "language": [
@@ -58,21 +58,16 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Home",
+      "hideOnScroll": true,
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo-black.svg"
       },
       "items": [
         {
-          "type": "docsVersionDropdown",
-          "position": "left",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
-        },
-        {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "mySidebar",
           "position": "left",
           "label": "Docs"
         },
@@ -86,8 +81,7 @@ export default {
           "label": "GitHub",
           "position": "right"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "footer": {
       "style": "dark",
@@ -96,8 +90,8 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/next/intro"
+              "label": "RNF",
+              "to": "/docs/rnf/introduction"
             }
           ]
         },
@@ -127,7 +121,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/fyupeng/rpc-nettty-framework"
             }
           ]
         }

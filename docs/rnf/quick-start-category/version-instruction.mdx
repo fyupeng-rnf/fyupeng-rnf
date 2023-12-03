@@ -1,0 +1,114 @@
+---
+sidebar_position: 1
+---
+
+
+# 版本选择
+
+本章节帮助文档致力使用 `Java/GoLang` 快速构建一个远程服务调用的过程。
+
+### Java 版本
+
+#### 版本说明
+
+export const JavaVersionTable = () => (
+  <table class="table">
+    <thead>
+      <tr>
+        <th style={{width:`10%`}} scope="col">#</th>
+        <th style={{width:`10%`}} scope="col">版本号</th>
+        <th style={{width:`50%`}} scope="col">模块</th>
+        <th scope="col">名称</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>2.2.5</td>
+        <td><a href="https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/">rpc-core-2.2.5-jar-with-dependencies.jar</a></td>
+        <td>公共依赖编译包</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>2.2.5</td>
+        <td><a href="https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/">rpc-core-2.2.5-javadoc.jar</a></td>      
+        <td>文档包</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>2.2.5</td>
+        <td><a href="https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/">rpc-core-2.2.5-sources.jar</a></td>
+        <td colspan="2">源码包</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>2.2.5</td>
+        <td><a href="https://repo1.maven.org/maven2/cn/fyupeng/rpc-core/2.2.5/">rpc-core-2.2.5.jar</a></td>      
+        <td colspan="2">核心依赖编译包</td>
+      </tr>
+    </tbody>
+  </table>
+);
+
+<JavaVersionTable></JavaVersionTable>
+
+选择 [其他版本](https://central.sonatype.com/artifact/cn.fyupeng/rpc-netty-framework/versions)
+
+
+#### maven 依赖下载
+
+```xml title='maven 依赖导入'
+<dependency>
+    <groupId>cn.fyupeng</groupId>
+    <artifactId>rpc-core</artifactId>
+    <version>2.2.5</version>
+</dependency>
+```
+
+### GoLang 版本
+
+#### 版本说明
+
+
+
+export const GoLangVersionTable = () => (
+    <table class="table">
+    <thead>
+      <tr>
+        <th style={{width:`10%`}} scope="col">#</th>
+        <th style={{width:`10%`}} scope="col">版本号</th>
+        <th style={{width:`50%`}} scope="col">模块</th>
+        <th scope="col">名称</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>v0.1.1</td>
+        <td><a href="https://pkg.go.dev/github.com/fyupeng/rpc-go-netty@v0.1.1">github.com/fyupeng/rpc-go-netty@v0.1.1</a></td>
+        <td>module</td>
+      </tr>
+    </tbody>
+  </table>
+);
+
+<GoLangVersionTable></GoLangVersionTable>
+
+#### 依赖下载
+
+
+
+```bash
+go get github.com/fyupeng/rpc-go-netty@latest
+```
+
+:::tip[提示]
+
+如何选择下载依赖？使用`@version`指定版本后，如v`0.1.1`。
+
+:::
+
+
+### 其他版本
+
+即将发布

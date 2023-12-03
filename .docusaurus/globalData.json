@@ -6,115 +6,52 @@
         {
           "name": "current",
           "label": "Next",
-          "isLast": false,
-          "path": "/docs/next",
-          "mainDocId": "rnf-intro",
-          "docs": [
-            {
-              "id": "intro",
-              "path": "/docs/next/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "rnf-intro",
-              "path": "/docs/next/rnf-intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/next/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/next/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/next/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/next/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/next/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/next/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/next/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/next/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/next/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/next/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/docs/next/rnf-intro",
-                "label": "rnf-intro"
-              }
-            }
-          }
-        },
-        {
-          "name": "2.0",
-          "label": "2.0",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "rnf-intro",
+          "mainDocId": "rnf/introduction",
           "docs": [
             {
-              "id": "rnf-intro",
-              "path": "/docs/rnf-intro",
-              "sidebar": "tutorialSidebar"
+              "id": "rnf/core-feature",
+              "path": "/docs/rnf/core-feature",
+              "sidebar": "mySidebar"
             },
             {
-              "id": "rpc-netty-framework-2.0/introduction",
-              "path": "/docs/rpc-netty-framework-2.0/introduction",
-              "sidebar": "tutorialSidebar"
+              "id": "rnf/introduction",
+              "path": "/docs/rnf/introduction",
+              "sidebar": "mySidebar"
             },
             {
-              "id": "rpc-netty-framework-2.0/quick-start",
-              "path": "/docs/rpc-netty-framework-2.0/quick-start",
-              "sidebar": "tutorialSidebar"
+              "id": "rnf/quick-start-category/quick-start-golang",
+              "path": "/docs/rnf/quick-start-category/quick-start-golang",
+              "sidebar": "mySidebar"
             },
             {
-              "id": "/category/rpc-netty-framework-20",
-              "path": "/docs/category/rpc-netty-framework-20",
-              "sidebar": "tutorialSidebar"
+              "id": "rnf/quick-start-category/quick-start-java",
+              "path": "/docs/rnf/quick-start-category/quick-start-java",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "rnf/quick-start-category/quick-start-other",
+              "path": "/docs/rnf/quick-start-category/quick-start-other",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "rnf/quick-start-category/version-instruction",
+              "path": "/docs/rnf/quick-start-category/version-instruction",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "rnf/quick-start-doc",
+              "path": "/docs/rnf/quick-start-doc",
+              "sidebar": "mySidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "mySidebar": {
               "link": {
-                "path": "/docs/rnf-intro",
-                "label": "rnf-intro"
+                "path": "/docs/rnf/introduction",
+                "label": "rnf/introduction"
               }
             }
           }

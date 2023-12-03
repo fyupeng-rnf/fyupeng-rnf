@@ -2,163 +2,124 @@
   "pluginId": "default",
   "version": "current",
   "label": "Next",
-  "banner": "unreleased",
-  "badge": true,
+  "banner": null,
+  "badge": false,
   "noIndex": false,
   "className": "docs-version-current",
-  "isLast": false,
+  "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
-      {
-        "type": "link",
-        "label": "RNF Intro",
-        "href": "/docs/next/rnf-intro",
-        "docId": "rnf-intro",
-        "unlisted": false
-      },
+    "mySidebar": [
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Guides",
         "collapsible": true,
-        "collapsed": true,
+        "collapsed": false,
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/next/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page",
+            "label": "RNF 是什么？",
+            "href": "/docs/rnf/introduction",
+            "docId": "rnf/introduction",
             "unlisted": false
           },
           {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/next/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/next/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/next/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/next/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/next/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations",
-            "unlisted": false
+            "label": "Docs",
+            "type": "category",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "category",
+                "label": "快速开始",
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "版本选择",
+                    "href": "/docs/rnf/quick-start-category/version-instruction",
+                    "docId": "rnf/quick-start-category/version-instruction",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Java",
+                    "href": "/docs/rnf/quick-start-category/quick-start-java",
+                    "docId": "rnf/quick-start-category/quick-start-java",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "GoLang",
+                    "href": "/docs/rnf/quick-start-category/quick-start-golang",
+                    "docId": "rnf/quick-start-category/quick-start-golang",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Other Language",
+                    "href": "/docs/rnf/quick-start-category/quick-start-other",
+                    "docId": "rnf/quick-start-category/quick-start-other",
+                    "unlisted": false
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true,
+                "href": "/docs/rnf/quick-start-doc"
+              },
+              {
+                "type": "link",
+                "label": "核心功能",
+                "href": "/docs/rnf/core-feature",
+                "docId": "rnf/core-feature",
+                "unlisted": false
+              }
+            ]
           }
-        ],
-        "href": "/docs/next/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/next/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/next/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/next/category/tutorial---extras"
-      },
-      {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/next/intro",
-        "docId": "intro",
-        "unlisted": false
+        ]
       }
     ]
   },
   "docs": {
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
+    "rnf/core-feature": {
+      "id": "rnf/core-feature",
+      "title": "核心功能",
+      "description": "本章节讲述 RNF 是如何运作的，面向透明开发，能够给开发者减少很多学习成本，但从性能上考虑，能够了解并且很好去用作它，所发挥的效果更佳。",
+      "sidebar": "mySidebar"
     },
-    "rnf-intro": {
-      "id": "rnf-intro",
-      "title": "RNF Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
+    "rnf/introduction": {
+      "id": "rnf/introduction",
+      "title": "RNF 是什么？",
+      "description": "RNF 简介",
+      "sidebar": "mySidebar"
     },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
+    "rnf/quick-start-category/quick-start-golang": {
+      "id": "rnf/quick-start-category/quick-start-golang",
+      "title": "GoLang",
+      "description": "本章节帮助文档致力使用 Java/GoLang 快速构建一个远程服务调用的过程。",
+      "sidebar": "mySidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
+    "rnf/quick-start-category/quick-start-java": {
+      "id": "rnf/quick-start-category/quick-start-java",
+      "title": "Java",
+      "description": "本章节帮助文档致力使用 Java/GoLang 快速构建一个远程服务调用的过程。",
+      "sidebar": "mySidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
+    "rnf/quick-start-category/quick-start-other": {
+      "id": "rnf/quick-start-category/quick-start-other",
+      "title": "Other Language",
+      "description": "敬请期待！",
+      "sidebar": "mySidebar"
     },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
+    "rnf/quick-start-category/version-instruction": {
+      "id": "rnf/quick-start-category/version-instruction",
+      "title": "版本选择",
+      "description": "本章节帮助文档致力使用 Java/GoLang 快速构建一个远程服务调用的过程。",
+      "sidebar": "mySidebar"
     },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/next/intro.md to French.",
-      "sidebar": "tutorialSidebar"
+    "rnf/quick-start-doc": {
+      "id": "rnf/quick-start-doc",
+      "title": "快速开始",
+      "description": "本章节帮助文档致力使用 Java/GoLang 快速构建一个远程服务调用的过程。",
+      "sidebar": "mySidebar"
     }
   }
 }

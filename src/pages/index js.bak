@@ -4,13 +4,15 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import {css} from 'bootstrap/dist/css/bootstrap.min.css'
+
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header  className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -20,7 +22,10 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/rnf/introduction">
-            Quick Started ⏱️
+            <span style={{marginRight: `5px`}}>Quick Started</span>
+            <div class="spinner-grow spinner-grow-sm" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
           </Link>
         </div>
       </div>

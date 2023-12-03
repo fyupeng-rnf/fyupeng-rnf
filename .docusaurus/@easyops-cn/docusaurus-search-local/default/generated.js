@@ -1,12 +1,12 @@
-import lunr from "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\node_modules\\lunr\\lunr.js";
-require("D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\node_modules\\lunr-languages\\lunr.stemmer.support.js")(lunr);
+import lunr from "D:\\Users\\fyp01\\NodeProject\\rnf\\node_modules\\lunr\\lunr.js";
+require("D:\\Users\\fyp01\\NodeProject\\rnf\\node_modules\\lunr-languages\\lunr.stemmer.support.js")(lunr);
 require("@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);
-require("D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\node_modules\\lunr-languages\\lunr.multi.js")(lunr);
+require("D:\\Users\\fyp01\\NodeProject\\rnf\\node_modules\\lunr-languages\\lunr.multi.js")(lunr);
 export const language = ["en","zh"];
 export const removeDefaultStopWordFilter = false;
 export const removeDefaultStemmer = false;
-export { default as Mark } from "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\node_modules\\mark.js\\dist\\mark.js"
-export const searchIndexUrl = "search-index{dir}.json?_=7fe24a6c";
+export { default as Mark } from "D:\\Users\\fyp01\\NodeProject\\rnf\\node_modules\\mark.js\\dist\\mark.js"
+export const searchIndexUrl = "search-index{dir}.json?_=1bb23328";
 export const searchResultLimits = 8;
 export const searchResultContextMaxLength = 50;
 export const explicitSearchResultPath = true;

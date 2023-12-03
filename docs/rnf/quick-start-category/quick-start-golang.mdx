@@ -1,0 +1,180 @@
+---
+sidebar_position: 3
+---
+
+
+# GoLang
+
+本章节帮助文档致力使用 `Java/GoLang` 快速构建一个远程服务调用的过程。
+
+
+### GoLang 服务端
+
+```jsx
+func TestServer(t *testing.T) {
+	// 创建 服务端 和 连接 注册中心
+	nacosServer := server.NewNettyServer("192.168.67.191:9527", "127.0.0.1:8848", serializer.JsonSerializerCode)
+	// 发布 服务
+	nacosServer.PublishService(&cn_fyupeng_service.HelloWorldServiceImpl{})
+	// 启动服务 并 监听 客户端请求
+	err := nacosServer.Start()
+	if err != nil {
+		log.Fatal("start nacosServer failed:", err)
+	}
+}
+```
+
+### GoLang 客户端
+
+在上一篇有所介绍，创建代理来调用服务，能够增强客户端调用的功能，获取代理对象时，搭配使用注解 `@Reference` ，能够轻松使用它的几个属性：
+
+export const ClientServiceAnnotationTable = () => (
+  <table class="table">
+  <thead class="table table-striped table-hover table-sm">
+    <tr>
+      <th scope="col">#</th>
+      <th style={{width: `10%`}} scope="col">属性名</th>
+      <th style={{width: `10%`}} scope="col">默认值</th>
+      <th scope="col">备注</th>
+	  <th style={{width: `10%`}} scope="col">支持</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>name</td>
+      <td>""</td>
+      <td>服务名，默认为全限定类名</td>
+	  <td>✔</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>group</td>
+      <td>""</td>
+      <td>服务分组，默认为空字符串，Nacos 默认存储"DEFAULT_GROUP"</td>
+	  <td>✔</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>retries</td>
+      <td>2</td>
+      <td>服务重试次数，客户端对同一个请求有容错重试的机会，直到重试达到阈值，在多节点分布式服务中使用更有优势。</td>
+	  <td>✖</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>giveTime</td>
+      <td>1</td>
+      <td>服务重试让出时间，服务在一次调用失败后，并不会立即重试，设计的初衷是让所有线程都有机会获得CPU使用权，在高并发场景下能避免服务失败链锁反应。</td>
+	  <td>✖</td>
+	</tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>timeout</td>
+      <td>3000</td>
+      <td>服务超时时间，服务超时是一种逻辑上的处理，它允许客户端等待接收服务返回结果的逻辑最大时间，并不会限制服务真正执行的时间，它与服务异步时间搭配时间会有很明显的优势。</td>
+      <td>✖</td>
+	</tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>asyncTime</td>
+      <td>0</td>
+      <td>服务异步时间，是相对于异步模式而言的，限制客户端等待服务返回结果的最大时间，阻塞模式下不限制等待最长时间。</td>
+      <td>✖</td>
+	</tr>
+  </tbody>
+</table>
+);
+
+<ClientServiceAnnotationTable></ClientServiceAnnotationTable>
+
+GoLang 同样不直接使用 客户端来手动解析用户请求，往往由客户端代理帮助我们主动去创建。
+
+```jsx
+func TestProxy(t *testing.T) {
+	// 直连 方式（不使用 注册中心 和 负载均衡）
+	//client := client.NewNettyClientDirect("192.168.67.191:9527", serializer.JsonSerializerCode)
+	// 通过 注册中心负载获取
+	client := client.NewNettyClient2Alone(load_balancer.NewRandLoadBalancer(), serializer.JsonSerializerCode, "127.0.0.1:8848")
+	h := aop.NewClientProxy(client)
+	h.AddAnnotation(&annotation.Annotation{
+		GroupName:   "1.0.0",
+		ServiceName: "cn.fyupeng.service.HelloWorldService",
+	})
+	h.Invoke(reflect.TypeOf((*cn_fyupeng_service.HelloWorldService)(nil)), "SayHello", []interface{}{"这是go代理端"})
+}
+
+```
+
+从 `Java` 编写的客户端代码再来看 `GoLang` 的代码，你会发现，有一些瑕疵和别扭，而且生态圈也不如 `Java` 那般完善，这是事实，但不可否认的是，`GoLang` 的协程和性能已经内存方面就非常的优秀。
+
+
+### GoLang 服务接口
+
+接口作为规范，服务端和客户端都必须实现，并且接口需要完成相同。
+
+```jsx
+
+package cn_fyupeng_service
+
+type HelloWorldService interface {
+	SayHello(message string) string
+}
+
+```
+
+### GoLang 服务实现
+
+export const ServerServiceAnnotationTable = () => (
+  <table class="table">
+    <thead class="table table-striped table-hover table-sm">
+      <tr>
+        <th scope="col">#</th>
+        <th style={{width: `10%`}} scope="col">属性名</th>
+        <th style={{width: `10%`}}  scope="col">默认值</th>
+        <th scope="col">备注</th>
+		<th style={{width: `10%`}} scope="col">支持</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>name</td>
+        <td>""</td>
+        <td>服务名，需要在使用注册中心负载时生效，使用直连不生效。默认为全限定类名</td>
+        <td>✔</td>
+	  </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>group</td>
+        <td>""</td>
+        <td>服务分组，需要在使用注册中心负载时生效，使用直连不生效。默认为空字符串，将从注册中心 `Nacos` 获取默认存储"DEFAULT_GROUP"</td>
+        <td>✔</td>
+	  </tr>
+    </tbody>
+  </table>
+);
+
+<ServerServiceAnnotationTable></ServerServiceAnnotationTable>
+
+:::tip[提示]
+
+`GoLang` 没有 `Java` 提供的注解，它提供了标签的语法，可以用于序列化或用于其他功能。
+
+这里规范了 `annotation` 这种 RNF 独有的标签，只有使用它并标记上标签值，才会对服务标记上对应的属性。
+
+:::
+
+```jsx
+package cn_fyupeng_service
+
+type HelloWorldServiceImpl struct {
+	name  string `annotation:"cn.fyupeng.service.HelloWorldService"`
+	group string `annotation:"1.0.0"`
+}
+
+func (helloService *HelloWorldServiceImpl) SayHello(message string) string {
+	return "GoLang say: I have receive your message: " + message
+}
+
+```

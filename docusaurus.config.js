@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'RNF',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Easy to coding!',
+  favicon: 'img/favicon-black.ico',
 
   // Set the production url of your site here
   url: 'https://fyupeng-rnf.github.io',
@@ -62,6 +62,7 @@ const config = {
     ],
   ],
 
+
   themes: [
     // ... Your other themes.
     [
@@ -80,25 +81,29 @@ const config = {
       },
     ],
   ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      // 顶部 Logo 图片和名称 
       navbar: {
-        title: 'My Site',
+        title: 'Home',
+        hideOnScroll: true,
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-black.svg',
         },
+        // 顶部 菜单项
         items: [
-          {
-            type: 'docsVersionDropdown',
-          },
+          // {
+          //   type: 'docsVersionDropdown',
+          // },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'mySidebar',
             position: 'left',
             label: 'Docs',
           },
@@ -111,6 +116,7 @@ const config = {
 		  
         ],
       },
+      // 底部
       footer: {
         style: 'dark',
         links: [
@@ -118,8 +124,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/next/intro',
+                label: 'RNF',
+                to: '/docs/rnf/introduction',
               },
             ],
           },
@@ -149,7 +155,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/fyupeng/rpc-nettty-framework',
               },
             ],
           },
