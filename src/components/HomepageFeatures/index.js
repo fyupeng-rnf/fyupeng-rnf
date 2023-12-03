@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/easy-use.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        RNF is designed based on the high-performance framework Netty. It inherits excellent performance and uses agents, annotations and configurations to make development simple and efficient.
       </>
     ),
   },
@@ -18,13 +17,12 @@ const FeatureList = [
     Svg: require('@site/static/img/focus-coding.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Better focus and efficiency allows you to separate from the underlying details and focus on business code development.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered in work',
     Svg: require('@site/static/img/power-work.svg').default,
     description: (
       <>
