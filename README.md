@@ -1,41 +1,45 @@
-# Website
+## RPC-GO-NETTY
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![Version](https://img.shields.io/static/v1?label=Version&message=v0.1.1&color=brightgreen)
+![GO](https://img.shields.io/static/v1?label=GO&message=8.0&color=green)
+![Nacos-SDK-GO](https://img.shields.io/static/v1?label=Nacos-SDK-GO&message=1.43&color=orange)
+![Monkey](https://img.shields.io/static/v1?label=Monkey&message=1.43&color=orange)
+![Netty](https://img.shields.io/static/v1?label=GO-Netty&message=4.1.75.Final&color=blueviolet)
+![License](https://img.shields.io/static/v1?label=License&message=Apache2&color=blue)
 
-### Installation
 
-```
-$ yarn
-```
+基于 `Go-Netty` 的 RPC 远程方法调用框架，集成 `json2`、`hessian2`、`mapstructure` 和 `concurrent` 的远程方法调用 RPC 框架。
 
-### Local Development
+支持跨语言，Java版本实现请见 [RPC-Netty-Framework](https://github.com/fyupeng/rpc-netty-framework) 。
 
-```
-$ yarn start
-```
+### 开放组件
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+### 功能
+1. 服务发现
+2. 服务自动注册
+3. 多种序列化协议
+4. 注册中心
+5. 负载均衡
+6. 协议编码
+7. AOP 动态代理
+8. 标签属性注入
+9. 雪花算法 ID 生成器实现
 
-```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### 版本链
 
-### Deployment
+- [ [#v0.1.7](https://pkg.go.dev/github.com/fyupeng/rpc-go-netty@v0.1.2) ]：Repair the empty results abnormal response to a question.
 
-Using SSH:
 
-```
-$ USE_SSH=true yarn deploy
-```
+### 附
 
-Not using SSH:
+1.0.0 版本将于 2023/12/31 前完成更新发布，敬请期待！
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+遵循 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) 协议，使用前建议用户阅读该声明。
+
+
+
+
+

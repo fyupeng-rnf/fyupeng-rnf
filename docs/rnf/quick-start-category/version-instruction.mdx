@@ -85,7 +85,7 @@ export const GoLangVersionTable = () => (
       <tr>
         <th scope="row">1</th>
         <td>v0.1.1</td>
-        <td><a href="https://pkg.go.dev/github.com/fyupeng/rpc-go-netty@v0.1.1">github.com/fyupeng/rpc-go-netty@v0.1.1</a></td>
+        <td><a href="https://pkg.go.dev/github.com/fyupeng/rpc-go-netty@v0.1.2">github.com/fyupeng/rpc-go-netty@v0.1.1</a></td>
         <td>module</td>
       </tr>
     </tbody>
@@ -99,12 +99,13 @@ export const GoLangVersionTable = () => (
 
 
 ```bash
-go get github.com/fyupeng/rpc-go-netty@latest
+go get github.com/fyupeng/rpc-go-netty@latest # 下载项目
+go mod tidy # 下载项目依赖
 ```
 
 :::tip[提示]
 
-如何选择下载依赖？使用`@version`指定版本后，如v`0.1.1`。
+如何选择下载依赖？使用`@version`指定版本后，如v`0.1.2`。
 
 :::
 
