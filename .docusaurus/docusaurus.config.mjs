@@ -43,7 +43,7 @@ export default {
   ],
   "themes": [
     [
-      "D:\\Users\\fyp01\\NodeProject\\rnf\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+      "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
       {
         "hashed": true,
         "language": [
@@ -121,12 +121,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/fyupeng/rpc-nettty-framework"
+              "href": "https://github.com/fyupeng/rpc-netty-framework"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

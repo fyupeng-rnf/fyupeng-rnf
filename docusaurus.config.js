@@ -50,6 +50,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+              frontMatter.hide_reading_time
+                  ? undefined
+                  : defaultReadingTime({content}),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -155,7 +159,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/fyupeng/rpc-nettty-framework',
+                href: 'https://github.com/fyupeng/rpc-netty-framework',
               },
             ],
           },

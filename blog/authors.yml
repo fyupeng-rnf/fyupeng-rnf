@@ -1,17 +1,12 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+fyupeng:
+  name: Yupeng Fang
+  title: RNF Developer
+  url: https://github.com/fyupeng
+  image_url: https://avatars.githubusercontent.com/u/87806096
+  email: fyp010311@163.com
+fyupeng-rnf:
+  name: RNF
+  title: RNF Framework
+  url: https://github.com/fyupeng-rnf
+  image_url: https://avatars.githubusercontent.com/u/151453894
+  email: fyp010311@163.com

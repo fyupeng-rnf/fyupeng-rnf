@@ -82,7 +82,7 @@
     "rnf/core-feature": {
       "id": "rnf/core-feature",
       "title": "核心功能",
-      "description": "本章节讲述 RNF 是如何运作的，面向透明开发，能够给开发者减少很多学习成本，但从性能上考虑，能够了解并且很好去用作它，所发挥的效果更佳。",
+      "description": "本章节讲述 RNF 是如何运作的，面向透明开发，能够给开发者减少很多学习成本，但从性能上考虑，能够了解并且很好去运作它，能够让开发效果更佳。",
       "sidebar": "mySidebar"
     },
     "rnf/introduction": {

@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/welcome-rnf-v0",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/blog-1-intro.md",
+  "source": "@site/blog/blog-1-intro.md",
+  "title": "Welcome RNF Blog",
+  "description": "This is my first post on RNF.",
+  "date": "2023-12-25T03:22:12.702Z",
+  "formattedDate": "December 25, 2023",
+  "tags": [
+    {
+      "label": "intro",
+      "permalink": "/blog/tags/intro"
+    },
+    {
+      "label": "rnf-v0",
+      "permalink": "/blog/tags/rnf-v-0"
+    }
+  ],
+  "readingTime": 0.135,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Yupeng Fang",
+      "title": "RNF Developer",
+      "url": "https://github.com/fyupeng",
+      "email": "fyp010311@163.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/87806096",
+      "key": "fyupeng"
+    }
+  ],
+  "frontMatter": {
+    "title": "Welcome RNF Blog",
+    "description": "This is my first post on RNF.",
+    "slug": "welcome-rnf-v0",
+    "authors": "fyupeng",
+    "tags": [
+      "intro",
+      "rnf-v0"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "贡献者",
+    "permalink": "/blog/blog-2-contribution"
+  }
+}

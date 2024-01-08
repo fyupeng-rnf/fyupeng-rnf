@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/blog-contribution",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/blog-contribution.md",
+  "source": "@site/blog/blog-contribution.md",
+  "title": "贡献者",
+  "description": "日后将更新贡献者名单，我们会在RNF的开源框架的路上不断努力！",
+  "date": "2024-01-08T06:25:05.163Z",
+  "formattedDate": "January 8, 2024",
+  "tags": [],
+  "readingTime": 0.135,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Yupeng Fang",
+      "title": "RNF Developer",
+      "url": "https://github.com/fyupeng",
+      "email": "fyp010311@163.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/87806096",
+      "key": "fyupeng"
+    },
+    {
+      "name": "RNF",
+      "title": "RNF Framework",
+      "url": "https://github.com/fyupeng-rnf",
+      "email": "fyp010311@163.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/151453894",
+      "key": "fyupeng-rnf"
+    }
+  ],
+  "frontMatter": {
+    "authors": [
+      "fyupeng",
+      "fyupeng-rnf"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome RNF Blog",
+    "permalink": "/blog/welcome-rnf-v0"
+  }
+}

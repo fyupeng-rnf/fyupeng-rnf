@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrnf=self.webpackChunkrnf||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u8d21\u732e\u8005","permalink":"/blog/blog-contribution","unlisted":false},{"title":"Welcome RNF Blog","permalink":"/blog/welcome-rnf-v0","unlisted":false}]}')}}]);

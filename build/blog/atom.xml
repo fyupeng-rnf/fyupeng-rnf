@@ -2,15 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fyupeng-rnf.github.io/blog</id>
     <title>RNF Blog</title>
-    <updated>2023-12-03T06:41:58.000Z</updated>
+    <updated>2024-01-08T06:25:05.163Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fyupeng-rnf.github.io/blog"/>
     <subtitle>RNF Blog</subtitle>
     <icon>https://fyupeng-rnf.github.io/img/favicon-black.ico</icon>
     <entry>
-        <title type="html"><![CDATA[介绍]]></title>
-        <id>https://fyupeng-rnf.github.io/blog/blog-intro</id>
-        <link href="https://fyupeng-rnf.github.io/blog/blog-intro"/>
+        <title type="html"><![CDATA[贡献者]]></title>
+        <id>https://fyupeng-rnf.github.io/blog/blog-contribution</id>
+        <link href="https://fyupeng-rnf.github.io/blog/blog-contribution"/>
+        <updated>2024-01-08T06:25:05.163Z</updated>
+        <summary type="html"><![CDATA[日后将更新贡献者名单，我们会在RNF的开源框架的路上不断努力！]]></summary>
+        <content type="html"><![CDATA[<p>日后将更新贡献者名单，我们会在RNF的开源框架的路上不断努力！</p>]]></content>
+        <author>
+            <name>Yupeng Fang</name>
+            <email>fyp010311@163.com</email>
+            <uri>https://github.com/fyupeng</uri>
+        </author>
+        <author>
+            <name>RNF</name>
+            <email>fyp010311@163.com</email>
+            <uri>https://github.com/fyupeng-rnf</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome RNF Blog]]></title>
+        <id>https://fyupeng-rnf.github.io/blog/welcome-rnf-v0</id>
+        <link href="https://fyupeng-rnf.github.io/blog/welcome-rnf-v0"/>
         <updated>2023-12-03T06:41:58.000Z</updated>
+        <summary type="html"><![CDATA[This is my first post on RNF.]]></summary>
+        <content type="html"><![CDATA[<p>博客引导页作为引导阅读使用，也可以作为阅读索引搜索，能够帮助读者花费更少时间达到高效的阅读目的。</p>
+<h1>索引</h1>
+<ul>
+<li>
+<p><a href="https://g/" target="_blank" rel="noopener noreferrer">跨语言通信技术</a></p>
+</li>
+<li>
+<p><a href="https://g/" target="_blank" rel="noopener noreferrer">跨语言序列化</a></p>
+</li>
+<li>
+<p><a href="https://g/" target="_blank" rel="noopener noreferrer">跨语言服务并存</a></p>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Yupeng Fang</name>
+            <email>fyp010311@163.com</email>
+            <uri>https://github.com/fyupeng</uri>
+        </author>
+        <category label="intro" term="intro"/>
+        <category label="rnf-v0" term="rnf-v0"/>
     </entry>
 </feed>

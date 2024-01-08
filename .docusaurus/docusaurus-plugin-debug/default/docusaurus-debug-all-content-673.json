@@ -15,14 +15,14 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Users\\fyp01\\NodeProject\\rnf\\sidebars.js",
-          "contentPath": "D:\\Users\\fyp01\\NodeProject\\rnf\\docs",
-          "contentPathLocalized": "D:\\Users\\fyp01\\NodeProject\\rnf\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\sidebars.js",
+          "contentPath": "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\docs",
+          "contentPathLocalized": "D:\\Users\\fangyupeng\\GitProject\\fyupeng-rnf\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "id": "rnf/core-feature",
               "title": "核心功能",
-              "description": "本章节讲述 RNF 是如何运作的，面向透明开发，能够给开发者减少很多学习成本，但从性能上考虑，能够了解并且很好去用作它，所发挥的效果更佳。",
+              "description": "本章节讲述 RNF 是如何运作的，面向透明开发，能够给开发者减少很多学习成本，但从性能上考虑，能够了解并且很好去运作它，能够让开发效果更佳。",
               "source": "@site/docs/rnf/core-feature.mdx",
               "sourceDirName": "rnf",
               "slug": "/rnf/core-feature",
@@ -267,42 +267,169 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "/blog-intro",
+          "id": "/blog-contribution",
           "metadata": {
-            "permalink": "/blog/blog-intro",
+            "permalink": "/blog/blog-contribution",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/blog-contribution.md",
+            "source": "@site/blog/blog-contribution.md",
+            "title": "贡献者",
+            "description": "日后将更新贡献者名单，我们会在RNF的开源框架的路上不断努力！",
+            "date": "2024-01-08T06:25:05.163Z",
+            "formattedDate": "January 8, 2024",
+            "tags": [],
+            "readingTime": 0.135,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Yupeng Fang",
+                "title": "RNF Developer",
+                "url": "https://github.com/fyupeng",
+                "email": "fyp010311@163.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/87806096",
+                "key": "fyupeng"
+              },
+              {
+                "name": "RNF",
+                "title": "RNF Framework",
+                "url": "https://github.com/fyupeng-rnf",
+                "email": "fyp010311@163.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/151453894",
+                "key": "fyupeng-rnf"
+              }
+            ],
+            "frontMatter": {
+              "authors": [
+                "fyupeng",
+                "fyupeng-rnf"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "Welcome RNF Blog",
+              "permalink": "/blog/welcome-rnf-v0"
+            }
+          },
+          "content": "日后将更新贡献者名单，我们会在RNF的开源框架的路上不断努力！"
+        },
+        {
+          "id": "welcome-rnf-v0",
+          "metadata": {
+            "permalink": "/blog/welcome-rnf-v0",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/blog-intro.md",
             "source": "@site/blog/blog-intro.md",
-            "title": "介绍",
-            "description": "",
+            "title": "Welcome RNF Blog",
+            "description": "This is my first post on RNF.",
             "date": "2023-12-03T06:41:58.000Z",
             "formattedDate": "December 3, 2023",
-            "tags": [],
-            "readingTime": 0,
+            "tags": [
+              {
+                "label": "intro",
+                "permalink": "/blog/tags/intro"
+              },
+              {
+                "label": "rnf-v0",
+                "permalink": "/blog/tags/rnf-v-0"
+              }
+            ],
+            "readingTime": 0.37,
             "hasTruncateMarker": false,
-            "authors": [],
-            "frontMatter": {},
-            "unlisted": false
+            "authors": [
+              {
+                "name": "Yupeng Fang",
+                "title": "RNF Developer",
+                "url": "https://github.com/fyupeng",
+                "email": "fyp010311@163.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/87806096",
+                "key": "fyupeng"
+              }
+            ],
+            "frontMatter": {
+              "title": "Welcome RNF Blog",
+              "description": "This is my first post on RNF.",
+              "slug": "welcome-rnf-v0",
+              "authors": "fyupeng",
+              "tags": [
+                "intro",
+                "rnf-v0"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png"
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "贡献者",
+              "permalink": "/blog/blog-contribution"
+            }
           },
-          "content": ""
+          "content": "博客引导页作为引导阅读使用，也可以作为阅读索引搜索，能够帮助读者花费更少时间达到高效的阅读目的。\n\n# 索引\n\n- [跨语言通信技术](https://g)\n\n- [跨语言序列化](https://g)\n\n- [跨语言服务并存](https://g)"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
-            "/blog-intro"
+            "/blog-contribution",
+            "welcome-rnf-v0"
           ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 1,
+            "totalCount": 2,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
-      "blogTags": {},
+      "blogTags": {
+        "/blog/tags/intro": {
+          "label": "intro",
+          "items": [
+            "welcome-rnf-v0"
+          ],
+          "permalink": "/blog/tags/intro",
+          "pages": [
+            {
+              "items": [
+                "welcome-rnf-v0"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/intro",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/rnf-v-0": {
+          "label": "rnf-v0",
+          "items": [
+            "welcome-rnf-v0"
+          ],
+          "permalink": "/blog/tags/rnf-v-0",
+          "pages": [
+            {
+              "items": [
+                "welcome-rnf-v0"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/rnf-v-0",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
       "blogTagsListPath": "/blog/tags"
     }
   },

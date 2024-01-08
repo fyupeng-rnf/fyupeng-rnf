@@ -1,6 +1,6 @@
 ## RPC-GO-NETTY
 
-![Version](https://img.shields.io/static/v1?label=Version&message=v0.1.1&color=brightgreen)
+![Version](https://img.shields.io/static/v1?label=Version&message=v0.1.17&color=brightgreen)
 ![GO](https://img.shields.io/static/v1?label=GO&message=8.0&color=green)
 ![Nacos-SDK-GO](https://img.shields.io/static/v1?label=Nacos-SDK-GO&message=1.43&color=orange)
 ![Monkey](https://img.shields.io/static/v1?label=Monkey&message=1.43&color=orange)
@@ -34,7 +34,7 @@
 
 ### 附
 
-1.0.0 版本将于 2023/12/31 前完成更新发布，敬请期待！
+新版本将发布。
 
 
 遵循 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) 协议，使用前建议用户阅读该声明。
